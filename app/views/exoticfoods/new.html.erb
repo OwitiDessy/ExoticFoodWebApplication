@@ -1,0 +1,7 @@
+<h1>Enter Your Exotic Food Details</h1>
+<%= simple_form_for @exoticfood do |f| %>
+  <%= f.input :food %>
+  <%= f.input :author %>
+  <br />
+  <%= f.submit 'Create', class: 'btn btn-danger' %>
+<% end %>

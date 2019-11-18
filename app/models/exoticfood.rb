@@ -1,0 +1,2 @@
+class Exoticfood < ApplicationRecord
+end
